@@ -1,0 +1,58 @@
+body{
+	background-color: #a7d3cd;
+}
+
+.font-box {
+	padding: 70px;
+	display: inline-block;
+	border: solid 1px #aaa;
+	text-align: center;
+	margin: 30px;
+	font-size: 30px;
+	background-color: #ddd;
+	width: auto;
+	float:none;
+
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #a7d3cd;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+  background-color: #a7d3cd;
+
+}
+
+#reset{
+	margin-top: 50px;
+	display: none;
+}
+
+p {
+	font-size: 15px;
+	color: #aaa;
+	font-family: Avenir;
+}
+
+.changeText{
+	margin-top: 75px;
+	margin-bottom: 10px;
+}
+
+#fonts {
+	text-align: center;
+	height: 70% !important;
+	overflow-y: scroll;
+}
+
+.navbar-brand {
+	float:right;
+}

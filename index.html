@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  </script>
+  <link href="./assets/styles.css" rel="stylesheet"><!-- Modal -->
+  <title></title>
+</head>
+<body>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <h1>Fontizer</h1>
+          <h4>See how Google Fonts look on your text!</h4>
+          <form class="form-inline">
+            <input class="form-control" id="userText" type="text"> 
+            <button class="btn btn-default" data-dismiss="modal" type="button">Go</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-light bg-faded justify-content-between">
+    <a class="navbar-brand">Fontizer</a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" id="textChangeBox" placeholder="enter new text here" type="text"> 
+      <button class="btn btn-outline-success refont my-2 my-sm-0" type="button">Search</button>
+    </form>
+  </nav>
+  <div class="col-lg-12" id="fonts"></div>
+  <script src="assets/script.js">
+  </script>
+</body>
+</html>
