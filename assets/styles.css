@@ -66,6 +66,7 @@ p {
 	text-align: center;
 	height: 70% !important;
 	overflow-y: scroll;
+	padding: 50px;
 }
 
 #userText {
@@ -83,12 +84,31 @@ p {
     font-size: 15px;
 }
 
+#textChangeBox {
+	margin: 30px 0px 30px 100px;
+	width: 300px;
+}
+
 #goButton {
 	height: 50px;
 	font-size:40px;
 	background-color: #a1d1b5;
 	border: none;
+	padding: 0;
+	margin-left: 5px;
+}
+.navbar {
+	background-color: #fff;
 }
 .navbar-brand {
 	float:right;
+	font-family: "Autour One";
+	font-size: 35px;
+	margin: 20px 100px 20px 0px;
+	color: #a1d1b5;
+}
+
+.changeCase {
+	background-color: #fff;
+	color: #666;
 }

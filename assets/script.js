@@ -21,7 +21,7 @@ fonts = response;});
 
 
 
-$("#goButton").on("click", function() {
+$(".btn").on("click", function() {
 
 if (textSet === false){
 	textSet = true;
