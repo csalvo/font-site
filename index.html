@@ -6,6 +6,9 @@
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
   </script>
+  <link href="https://fonts.googleapis.com/css?family=Autour+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mallanna" rel="stylesheet">
+  <script src="https://use.fontawesome.com/71ea549139.js"></script>
   <link href="./assets/styles.css" rel="stylesheet"><!-- Modal -->
   <title></title>
 </head>
@@ -15,11 +18,11 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-body">
-          <h1>Fontizer</h1>
-          <h4>See how Google Fonts look on your text!</h4>
+          <h1>FONTIZER</h1>
+          <h4>Try out all the Google Fonts on your text!</h4>
           <form class="form-inline">
-            <input class="form-control" id="userText" type="text"> 
-            <button class="btn btn-default" data-dismiss="modal" type="button">Go</button>
+            <input id="userText" placeholder="your text here" type="text"> 
+            <button data-dismiss="modal" id="goButton" type="button"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
           </form>
         </div>
       </div>
@@ -29,7 +32,7 @@
     <a class="navbar-brand">Fontizer</a>
     <form class="form-inline">
       <input class="form-control mr-sm-2" id="textChangeBox" placeholder="enter new text here" type="text"> 
-      <button class="btn btn-outline-success refont my-2 my-sm-0" type="button">Search</button>
+      <button class="btn btn-outline-success refont goButton my-2 my-sm-0" type="button">Search</button>
     </form>
   </nav>
   <div class="col-lg-12" id="fonts"></div>
