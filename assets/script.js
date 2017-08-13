@@ -65,7 +65,7 @@ console.log(wordsToFontize);
 			$("#text").css("font-family", fontFamily);
 		} 
 
-		i = i + 1;
+		i++;
 	}
 }
 
