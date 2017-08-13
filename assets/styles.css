@@ -1,6 +1,6 @@
 body{
-	background-color: #a1d1b5;
-	color:white;
+	background-color: #d7e8e2;
+	color: #3a3a3a;
 }
 
 h1 {
@@ -14,6 +14,7 @@ h4 {
 	font-family: "Mallanna";
 	margin-bottom: 50px;
 	font-size: 25px;
+	color: #fff;
 }
 .font-box {
 	padding: 70px;
@@ -34,7 +35,7 @@ h4 {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #a1d1b5;
+  background-color: #d7e8e2;
 }
 
 .modal-content {
@@ -42,7 +43,7 @@ h4 {
   height: auto;
   min-height: 100%;
   border-radius: 0;
-  background-color: #a1d1b5;
+  background-color: #d7e8e2;
 
 }
 
@@ -73,42 +74,72 @@ p {
 	width: 600px;
 	height: 50px;
 	border: none;
-	background-color: #a1d1b5;
-  border-bottom: solid 3px #fff;
-  transition: border 0.3s;
-  font-size: 20px;
+	background-color: #d7e8e2;
+  	border-bottom: solid 3px #7d8482;
+  	transition: border 0.3s;
+  	font-size: 20px;
+  	padding-left: 5px;
+  	font-family: 'Avenir';
+  	letter-spacing: .15em;
 }
 
 *::-webkit-input-placeholder {
     color: #77847c;
-    font-size: 15px;
+    font-size: 12px;
+   	font-family: 'Avenir';
+   	letter-spacing: .3em;
+
 }
 
 #textChangeBox {
 	margin: 30px 0px 30px 100px;
 	width: 300px;
+	border: none;
+	background-color: #7a7a7a;
+  	border-bottom: solid 2px #fff;
+  	transition: border 0.3s;
+  	font-size: 20px;
+  	padding-left: 5px;
+  	font-family: 'Avenir';
+  	letter-spacing: .1em;
+  	color: #fff;
+}
+
+#textChangeBox *::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 12px;
+   	font-family: 'Avenir';
+   	letter-spacing: .3em;
+
 }
 
 #goButton {
 	height: 50px;
 	font-size:40px;
-	background-color: #a1d1b5;
+	background-color: #d7e8e2;
 	border: none;
 	padding: 0;
 	margin-left: 5px;
 }
+
 .navbar {
 	background-color: #fff;
 }
+
 .navbar-brand {
 	float:right;
 	font-family: "Autour One";
 	font-size: 35px;
 	margin: 20px 100px 20px 0px;
-	color: #a1d1b5;
+	color: #98ceb1;
 }
 
 .changeCase {
 	background-color: #fff;
 	color: #666;
+}
+
+.my-2 {
+
+	background-color: #fff;
 }
